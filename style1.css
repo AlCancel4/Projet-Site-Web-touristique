@@ -1,0 +1,75 @@
+h1 {
+    font:2em Apple Chancery, cursive,bold;
+    margin-top: 0px;
+    border: 4px solid green;
+    text-align:center;
+    margin-right:280px;
+    margin-left:280px;
+    margin-top: 30px
+}
+
+img {
+	width: 1000px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 1000px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+
+body {
+    background-color: #F5F5F5
+}
+
+h3 {
+	font:25px Apple Chancery,cursive, bold;
+	text-align: center;
+}
+
+p {
+	font:15px Apple Chancery,cursive;
+	text-align: center;
+	margin-left: 115px;
+	margin-right:115px;
+}
+
+div img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+div:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+nav ul{
+	padding: 0px;
+	margin:0px;
+	list-style-type: none;
+	background-color: #F5F5F5;
+	margin-left: 360px
+}
+
+nav li{
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	margin: 0px;
+	padding: 0px;
+	border: 2px solid black;
+	text-align: center;
+	line-height: 40px;
+}
+
+nav li:hover{
+	background-color: #BDBDBD
+}
+nav li a{
+	display: block;
+	text-decoration: none;
+	color: black;
+}
